@@ -1,0 +1,550 @@
+/* Webfonts Css Ends*/
+/* @import must be at top of file, otherwise CSS will not work */
+  
+@font-face {font-family: 'Museo-700';src: url('../fonts/webfonts/2FFC66_0_0.eot');src: url('../fonts/webfonts/2FFC66_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2FFC66_0_0.woff2') format('woff2'),url('../fonts/webfonts/2FFC66_0_0.woff') format('woff'),url('../fonts/webfonts/2FFC66_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Museo-300';src: url('../fonts/webfonts/2FFC66_1_0.eot');src: url('../fonts/webfonts/2FFC66_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2FFC66_1_0.woff2') format('woff2'),url('../fonts/webfonts/2FFC66_1_0.woff') format('woff'),url('../fonts/webfonts/2FFC66_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Museo-500';src: url('../fonts/webfonts/2FFC66_2_0.eot');src: url('../fonts/webfonts/2FFC66_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2FFC66_2_0.woff2') format('woff2'),url('../fonts/webfonts/2FFC66_2_0.woff') format('woff'),url('../fonts/webfonts/2FFC66_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ClassicGrotesquePro-Bold';src: url('../fonts/webfonts/2FFC66_3_0.eot');src: url('../fonts/webfonts/2FFC66_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/2FFC66_3_0.woff2') format('woff2'),url('../fonts/webfonts/2FFC66_3_0.woff') format('woff'),url('../fonts/webfonts/2FFC66_3_0.ttf') format('truetype');}
+ 
+.Museo-700 { 
+    font-family: Museo-700;
+    font-weight: normal;
+    font-style: normal;
+}
+.Museo-300 { 
+    font-family: Museo-300;
+    font-weight: normal;
+    font-style: normal;
+}
+.Museo-500 { 
+    font-family: Museo-500;
+    font-weight: normal;
+    font-style: normal;
+}
+.ClassicGrotesquePro-Bold { 
+    font-family: ClassicGrotesquePro-Bold;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.show{display: block;}
+.hide{display: none;}
+
+ /* General styles 
+::-moz-selection {  }
+::selection {  }*/
+
+:required{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none; }
+
+p {
+	color: #8c8c8c;
+}
+
+a{  
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s; 
+    color: #cb8437;
+}
+
+a:hover{ color: #865724 }
+a:active{  }
+a:visited{  }
+
+.red-link{
+    color: #f03661;
+}
+
+body{
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: Museo-300;
+    font-weight: normal;
+    font-style: normal;
+
+    overflow-x: hidden;
+    /*background: url(../pix/top-line.png) repeat-x;
+    padding-top: 5px;*/
+}
+.container{
+    background-color: #fff;
+    width: 100%;
+}
+
+  
+
+/* Genric Css Styles Starts*/
+
+.float{float: left;}
+.floatR{float: right;}
+.inline-block{
+    display: inline-block;
+}
+
+.pos-static{
+	position: static;
+}
+
+.w100{
+    width: 100%;    
+}
+
+.maxw-930{
+    max-width: 930px;    
+}
+.margin-auto{
+    margin: auto;
+}
+.no-margin{
+    margin: 0;
+}
+
+.pink-link-btn{
+    color: #f03661;
+}
+
+.pink-link-btn:hover{
+    color: #a22442;
+    text-decoration: none;
+}
+
+.btn-lg2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.bodytxt1 {
+    color: #727272;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.pd-top-15 {
+    padding-top: 15px;
+}
+
+.pd-top-37 {
+    padding-top: 37px;
+}
+
+.btn-spacing button {
+    margin: 0 5px;
+}
+
+.dashed-lineH{
+	border-top: 1px dashed #d5d5d5;
+}
+
+.lineH{
+	border-top: 1px solid #d5d5d5;
+}
+.table1{
+	font-size: 15px;
+	border-left: 1px solid #e4bb82;
+	border-bottom: 1px solid #e4bb82;
+}
+
+.table1 tbody tr th {
+    background: #eed8b7;
+    color: #8b5624;
+    font-weight: 600;;
+    border-right: 1px solid #e4bb82;
+    border-top: 1px solid #e4bb82;
+}
+
+.table1 tbody tr td{
+	color: #676767;
+	border-right: 1px solid #e4bb82;
+	border-top: 1px solid #e4bb82;
+}
+
+/* Genric Css Styles Ends*/
+
+/* text Css Styles starts*/
+.txt-yellow{
+    color: #f6da18;
+}
+
+.txt-orange{
+    color: #f6da18;
+}
+/* text Css Styles ends*/
+.logo-strip{
+    background: #fafafa;
+}
+
+.logo {
+    padding: 8px;
+}
+.logo-strip .lang {
+    color: #feb822;
+    text-align: right;
+	margin-bottom: 7px;
+}
+.logo-strip .search {
+    background: #fff;
+    
+    border-radius: 5px;
+     
+    display: inline-block;
+    float: right;
+    max-width: 300px;
+    padding: 0px;
+    text-align: right;
+    width: 100%;
+    position: relative;
+}
+
+.logo-strip .search input.form-control {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: 0 0;
+}
+.search.grey-box #search-1.search_tour {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: 0 0;
+    width: 100%;
+}
+
+.logo-strip .search button {
+    background: rgba(0, 0, 0, 0) url("../pix/search-icon.png") repeat scroll 0 0;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    width: 22px;
+	border: none;
+}
+
+.toplinks {
+    clear: both;
+    padding: 0;
+}
+.toplinks ul {
+    text-align: right;
+    padding: 0;
+}
+.toplinks li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.toplinks a {
+    color: #58585a;
+    border-bottom: 4px solid #d9d8d3;
+    padding: 5px;
+}
+.toplinks a:hover,
+.toplinks a:active,
+.toplinks a.active {
+    text-decoration: none;
+    color: #bb2222;
+    border-bottom: 4px solid #bc2222;
+}
+
+.h-mid-cont {
+    background:url("../images/1.jpg") repeat scroll 0 0;
+    height: 625px;
+}
+.h-mid-cont .text-area {
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 1px 2px 3px #000;
+    margin: 35px 0;
+    position: relative;
+    
+}
+
+.h-mid-cont .text-area h1 {
+    font-family: 'Museo-700';
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.h-mid-cont .text-area h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.h-mid-cont .text-area h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 22px;
+}
+.h-mid-cont .text-area a{
+    color: #fa0404;
+    text-shadow:1px 1px 0px #000;
+}
+
+.h-mid-cont .enrol-box {
+    background: rgba(0, 0, 0, 0) url("../images/enrol-bg.png") repeat scroll 0 0;
+    width: 301px;
+    height: 132px;
+    margin: 38px 0;
+    position: relative;
+    display: none;
+}
+
+.h-mid-cont .enrol-box h2{
+    font-family: 'Museo-700';
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 6px 0;
+    text-align: center;
+    text-shadow: 1px 2px 1px #000;
+}
+
+.enrol-box .btn {
+    background: url("../images/btn-enrol.png") no-repeat scroll 0 0;
+    display: block;
+    text-indent: -9999px;
+    width: 191px;
+    height: 51px;
+    margin: 23px auto 0;
+
+}
+.enrol-box .btn:hover {
+    background: url("../images/btn-enrol.png") no-repeat scroll 0 3px;
+}
+
+.h-mid-cont .customer-box {
+    background: #ffdf09 none repeat scroll 0 0;
+    border: 1px solid #222;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #fff188 inset;
+    height: 173px;
+    position: relative;
+    width: 301px;
+    top: 79px;
+}
+.h-mid-cont .customer-box h2 {
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-family: "Museo-700";
+    font-size: 19px;
+    font-weight: 100;
+    margin: 0;
+    padding: 11px 0 14px;
+    text-align: center;
+}
+
+.h-mid-cont .customer-box p {
+    color: #000;
+    margin: 0;
+    padding: 6px 7px 0;
+    text-align: center;
+}
+
+
+.customer-box .btn {
+    background: rgba(0, 0, 0, 0) url("../images/btn-customer.png") no-repeat scroll 0 0;
+    color: #454545;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 51px;
+    line-height: 33px;
+    margin: 8px auto 0;
+     text-indent: 25px ;
+     width: 122px;
+}
+.customer-box .btn2 {
+    background: rgba(0, 0, 0, 0) url("../images/my-account.png") no-repeat scroll 0 0;
+    color: #454545;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 51px;
+	padding-left: 18px;
+    padding-top: 5px;
+    line-height: 33px;
+    margin: 8px auto 0;
+    text-indent: 25px;
+     width: 176px;
+}
+
+.customer-box .btn:hover {
+    background: url("../images/btn-customer.png") no-repeat scroll 0 3px;
+}
+
+.footer{
+    background: #444545 url(../images/footer-line.png) repeat-x;
+    padding: 15px 0;
+}
+
+.footer p{
+    color: #9fa1a1;
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer .flinks{
+    padding-bottom: 15px;
+}
+.footer .flinks a{
+    color: #fff;
+    padding: 0 10px 0 0;
+}
+.footer .flinks a:hover,
+.footer .flinks a.active{
+    color: #ffdd00;
+    text-decoration: none;
+}
+.footer .f-logo-sec {
+    text-align: right;
+}
+
+.dropdown.langmenu {
+    padding: 7px 0 0;
+}
+.dropdown-menu {
+    border-bottom: 1px solid #fdba31;
+    box-shadow: 0 0 #fff;
+    border-radius: 0;
+    padding: 0;
+	margin: 0;
+}
+.dropdown-menu li{
+    border:1px solid #fdba31;
+    border-bottom: 0;
+}
+.dropdown-menu a{
+    color: #001e3c;
+}
+.toplinks .dropdown-menu {
+    left: 10px;
+    min-width: 110px;
+}
+.toplinks a.nav-toggle {
+    display: none;
+}
+/* ================================================================== */
+/* === Responsive styles ============================================ */
+/* ================================================================== */
+
+/* Smartphones */
+@media only screen and (max-width: 469px) {
+
+.logo {
+    text-align: center;
+}
+#logo{float: none;}
+.logo-strip .Rsec {
+    clear: left;
+}	
+.logo-strip .search {
+    max-width: 100%;
+}
+.footer .f-logo-sec {
+    text-align: center;
+}
+.h-mid-cont{
+    height: 225px;
+}
+.h-mid-cont .customer-box{
+    top: 25px;
+}
+
+.toplinks a.nav-toggle {
+    background: #ffdf09;
+    border-radius: 5px;
+    display: block;
+    height: 29px;
+    width: 40px;
+    border:0;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+}
+
+.toplinks a.nav-toggle span.icon-bar {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 2px;
+    height: 3px;
+    margin: 1px 0 4px;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+.toplinks > ul {
+    margin: 10px 0 0;
+}
+.toplinks li {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+}
+
+
+
+}
+
+
+
+
+
+/* Large smartphones */
+@media only screen and (min-width: 470px) and (max-width: 769px) {
+.logo {
+    text-align: center;
+}   
+.logo-strip .search {
+    max-width: 100%;
+}
+
+.h-mid-cont {
+    height: 300px;
+}
+.h-mid-cont .customer-box {
+    top: 65px;
+}
+
+
+}
+
+/* Tablets and landscape large smartphones */
+@media only screen and (min-width: 770px) and (max-width: 1100px) {
+.h-mid-cont {
+    height: 400px;
+}
+.h-mid-cont .customer-box {
+    top: 65px;
+}
+}
+
+/* Desktop screens */
+@media only screen and (min-width: 1101px) and (max-width: 1235px){
+ 
+}
+
+/* Desktop screens */
+@media only screen and (min-width: 1236px) and (max-width: 1300px){
+ 
+}
+
+
+/* Large screen */
+@media only screen and (min-width: 1500px) and (max-width: 1799px){
+
+}
+
+/* Very large screen */
+@media only screen and (min-width: 1800px){
+
+}

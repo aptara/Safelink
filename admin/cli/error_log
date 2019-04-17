@@ -1,0 +1,62 @@
+[08-Nov-2017 06:46:17 America/Chicago] PHP Warning:  require(../config.php): failed to open stream: No such file or directory in /home/safelink/public_html/safelink_iomad/admin/cli/cron.php on line 51
+[08-Nov-2017 06:46:17 America/Chicago] PHP Fatal error:  require(): Failed opening required '../config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/safelink/public_html/safelink_iomad/admin/cli/cron.php on line 51
+[10-Nov-2017 01:25:01 America/Chicago] Default exception handler: Error reading from database Debug: Can't create/write to file '/tmp/#sql_2201_0.MYI' (Errcode: 13)
+SELECT collation_name
+                  FROM INFORMATION_SCHEMA.COLUMNS
+                 WHERE table_schema = DATABASE() AND table_name = 'mdl_config' AND column_name = 'value'
+[NULL]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 249 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 529 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->get_dbcollation()
+* line 344 of /lib/dmllib.php: call to mysqli_native_moodle_database->connect()
+* line 615 of /lib/setup.php: call to setup_DB()
+* line 41 of /config.php: call to require_once()
+* line 33 of /admin/cli/cron.php: call to require()
+
+[10-Nov-2017 01:30:02 America/Chicago] Default exception handler: Error reading from database Debug: Can't create/write to file '/tmp/#sql_2201_0.MYI' (Errcode: 13)
+SELECT collation_name
+                  FROM INFORMATION_SCHEMA.COLUMNS
+                 WHERE table_schema = DATABASE() AND table_name = 'mdl_config' AND column_name = 'value'
+[NULL]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 249 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 529 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->get_dbcollation()
+* line 344 of /lib/dmllib.php: call to mysqli_native_moodle_database->connect()
+* line 615 of /lib/setup.php: call to setup_DB()
+* line 41 of /config.php: call to require_once()
+* line 33 of /admin/cli/cron.php: call to require()
+
+[10-Nov-2017 01:35:02 America/Chicago] Default exception handler: Error reading from database Debug: Can't create/write to file '/tmp/#sql_2201_0.MYI' (Errcode: 13)
+SELECT collation_name
+                  FROM INFORMATION_SCHEMA.COLUMNS
+                 WHERE table_schema = DATABASE() AND table_name = 'mdl_config' AND column_name = 'value'
+[NULL]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 249 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 529 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->get_dbcollation()
+* line 344 of /lib/dmllib.php: call to mysqli_native_moodle_database->connect()
+* line 615 of /lib/setup.php: call to setup_DB()
+* line 41 of /config.php: call to require_once()
+* line 33 of /admin/cli/cron.php: call to require()
+
+[10-Nov-2017 01:40:01 America/Chicago] Default exception handler: Error reading from database Debug: Can't create/write to file '/tmp/#sql_2201_0.MYI' (Errcode: 13)
+SELECT collation_name
+                  FROM INFORMATION_SCHEMA.COLUMNS
+                 WHERE table_schema = DATABASE() AND table_name = 'mdl_config' AND column_name = 'value'
+[NULL]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 249 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 529 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->get_dbcollation()
+* line 344 of /lib/dmllib.php: call to mysqli_native_moodle_database->connect()
+* line 615 of /lib/setup.php: call to setup_DB()
+* line 41 of /config.php: call to require_once()
+* line 33 of /admin/cli/cron.php: call to require()
+
+[10-Nov-2017 09:10:07 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/course/lib.php on line 1451
+[10-Nov-2017 09:10:07 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/course/lib.php on line 1456
+[10-Nov-2017 09:10:07 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/course/lib.php on line 1456
+[11-Jan-2019 04:45:01 America/Chicago] PHP Parse error:  syntax error, unexpected '$CFG' (T_VARIABLE) in /home/safelink/public_html/safelink_iomad/config.php on line 18

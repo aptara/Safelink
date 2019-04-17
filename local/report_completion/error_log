@@ -1,0 +1,48 @@
+[07-Nov-2017 08:02:06 Europe/Berlin] 2017051502
+[07-Nov-2017 08:02:07 Europe/Berlin] Potential coding error - existing temptables found when disposing database. Must be dropped!
+[07-Nov-2017 08:02:18 Europe/Berlin] 2017051502
+[07-Nov-2017 08:02:18 Europe/Berlin] Potential coding error - existing temptables found when disposing database. Must be dropped!
+[07-Nov-2017 08:37:28 Europe/Berlin] 2017051502
+[07-Nov-2017 08:37:28 Europe/Berlin] Potential coding error - existing temptables found when disposing database. Must be dropped!
+[07-Nov-2017 08:37:34 Europe/Berlin] 2017051502
+[07-Nov-2017 08:37:34 Europe/Berlin] Potential coding error - existing temptables found when disposing database. Must be dropped!
+[07-Nov-2017 08:38:26 Europe/Berlin] 2017051502
+[07-Nov-2017 08:38:26 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/local/report_completion/locallib.php on line 104
+[07-Nov-2017 08:38:26 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/local/report_completion/locallib.php on line 114
+[07-Nov-2017 08:38:26 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/local/report_completion/locallib.php on line 125
+[07-Nov-2017 08:38:26 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/local/report_completion/locallib.php on line 135
+[07-Nov-2017 08:38:26 Europe/Berlin] Potential coding error - existing temptables found when disposing database. Must be dropped!
+[08-Nov-2017 12:48:29 Europe/Berlin] 2017051502
+[08-Nov-2017 12:48:29 Europe/Berlin] Potential coding error - existing temptables found when disposing database. Must be dropped!
+[08-Nov-2017 12:48:37 Europe/Berlin] 2017051502
+[08-Nov-2017 12:48:37 Europe/Berlin] Potential coding error - existing temptables found when disposing database. Must be dropped!
+[08-Nov-2017 13:14:27 Europe/Berlin] 2017051502
+[08-Nov-2017 13:14:27 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/local/report_completion/locallib.php on line 104
+[08-Nov-2017 13:14:27 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/local/report_completion/locallib.php on line 114
+[08-Nov-2017 13:14:27 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/local/report_completion/locallib.php on line 125
+[08-Nov-2017 13:14:27 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/local/report_completion/locallib.php on line 135
+[08-Nov-2017 13:14:27 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /home/safelink/public_html/safelink_iomad/local/report_completion/locallib.php on line 220
+[08-Nov-2017 13:14:27 Europe/Berlin] Default exception handler: Error writing to database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 13
+INSERT INTO mdl_tmp_5a02f523943ee (userid, courseid, timeenrolled, timestarted, timecompleted, finalscore, certsource)
+                          SELECT ue.userid, e.courseid, ue.timestart, cc.timestarted, cc.timecompleted, gg.finalgrade, 0
+                          FROM mdl_tmp_5a02f52393e49 tut
+                          JOIN mdl_user_enrolments ue ON (tut.userid = ue.userid)
+                          INNER JOIN mdl_enrol e ON (ue.enrolid = e.id AND e.status=0)
+                          JOIN mdl_course_completions cc ON (ue.userid = cc.userid AND e.courseid = cc.course)
+                          JOIN mdl_role_assignments ra ON (ue.userid = ra.userid)
+                          JOIN mdl_context c ON (ra.contextid = c.id AND c.contextlevel = 50 AND c.instanceid = e.courseid)
+                          LEFT JOIN mdl_grade_items gi
+                          ON (cc.course = gi.courseid
+                          AND gi.itemtype = 'course')
+                          LEFT JOIN mdl_grade_grades gg ON (gg.userid = cc.userid AND gi.id = gg.itemid)
+                          WHERE ra.roleid = 
+[array (
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1084 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 225 of /local/report_completion/locallib.php: call to mysqli_native_moodle_database->execute()
+* line 416 of /local/report_completion/locallib.php: call to report_completion::populate_temporary_completion()
+* line 428 of /local/report_completion/index.php: call to report_completion::get_all_user_course_completion_data()
+
+[08-Nov-2017 13:14:27 Europe/Berlin] Potential coding error - existing temptables found when disposing database. Must be dropped!

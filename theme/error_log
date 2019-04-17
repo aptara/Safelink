@@ -1,0 +1,10 @@
+[07-Nov-2017 05:20:53 Europe/Berlin] Debugging: Cache definitions reparsed causing cache reset in order to locate definition.
+                                You should bump the version number to ensure definitions are reprocessed. in 
+* line 445 of /cache/classes/factory.php: call to debugging()
+* line 200 of /cache/classes/factory.php: call to cache_factory->create_definition()
+* line 174 of /cache/classes/loaders.php: call to cache_factory->create_cache_from_definition()
+* line 935 of /lib/outputlib.php: call to cache::make()
+* line 172 of /theme/styles.php: call to theme_config->get_css_cached_content()
+
+[07-Nov-2017 06:36:33 Europe/Berlin] 2017051502
+[07-Nov-2017 06:36:52 Europe/Berlin] 2017051502

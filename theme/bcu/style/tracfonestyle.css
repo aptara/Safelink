@@ -1,0 +1,770 @@
+/* Css written by aptara */
+.Museo-700 { 
+	font-family: Museo-700;
+	font-weight: normal;
+	font-style: normal;
+}
+.Museo-300 { 
+	font-family: Museo-300;
+	font-weight: normal;
+	font-style: normal;
+}
+.Museo-500 { 
+	font-family: Museo-500;
+	font-weight: normal;
+	font-style: normal;
+}
+.ClassicGrotesquePro-Bold { 
+	font-family: ClassicGrotesquePro-Bold;
+	font-weight: normal;
+	font-style: normal;
+}
+/* Webfonts Css Ends*/
+
+
+body{
+	/*background: #fafafa url([[pix:theme|top-line]]) repeat-x;
+	padding-top: 6px;*/
+    color: #58585a;
+}
+
+#page-header-wrapper{
+	background: #fafafa;
+}
+
+.pull-left .usermenu2.nav a {
+    color: #58585a;
+}
+
+.pull-left .usermenu2.nav a:hover {
+    color: #fff !important;
+    background: none !important;
+}
+#above-header .headermenu, 
+#above-header .headermenu a {
+    color: #58585a;
+}
+
+
+#above-header {
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8b72e+0,f9e677+100 */
+background: #f8b72e; /* Old browsers */
+background: -moz-linear-gradient(top,  #f8b72e 0%, #f9e677 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f8b72e 0%,#f9e677 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f8b72e 0%,#f9e677 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b72e', endColorstr='#f9e677',GradientType=0 ); /* IE6-9 */
+
+    border:0;
+    height: 20px;
+    margin-bottom: 14px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+#above-header .headermenu ul.dropdown-menu {
+    left: unset;
+    min-width: 129px;
+    right: 3px;
+    padding: 0;
+}
+#above-header .headermenu .dropdown-menu li {
+    border: 1px solid #fdba31;
+    border-bottom: 0;
+}
+
+#above-header .headermenu .dropdown-menu a {
+    padding: 8px 16px;
+    font-size: 12px;
+}
+#above-header .headermenu ul.dropdown-menu li i {
+    color: #fdba31;
+    font-size: 14px;
+}
+
+
+#navwrap {
+    background: #fafafa none repeat scroll 0 0;
+    border-bottom: 0 none;
+}
+
+ 
+.navbar .nav > li > .dropdown-menu {
+    min-width: 110px;
+}
+
+.navbar{
+	margin-left: 0;
+}
+.navbar .nav > li > a {
+    background: #fafafa none repeat scroll 0 0 !important;
+    border-bottom: 3px solid #d9d8d3 !important;
+    font-size: 13px;
+    margin: 0 4px;
+    color: #58585a;
+    padding: 0 6px;
+    text-align: left;
+}
+
+.navbar .nav > li > a:hover {
+    border-bottom: 3px solid #bc2222 !important;
+    color: #bb2222 !important;
+}
+
+.navbar .nav > li > a i{
+    color: #fdba31
+}
+
+
+
+input[type="submit"], 
+input[type="button"], 
+#searchform_button, 
+a.submit, 
+#notice .singlebutton + .singlebutton input, 
+.submit.buttons input[name="cancel"], 
+#page-login-index2 .forgetpass a, 
+.btn, input.form-submit, 
+input#id_submitbutton, 
+input#id_submitbutton2, 
+.path-admin .buttons input[type="submit"], 
+td.submit input {
+    background: #ffdd00 none repeat scroll 0 0 / 100% 200%;
+     
+    box-shadow: 0 -2px 0 0 rgba(0, 0, 0, 0.5) inset;
+    color: #2b2b2b;
+     
+    padding: 8px 15px;
+     
+}
+input[type="submit"]:hover, 
+input[type="button"]:hover, 
+#searchform_button:hover, 
+a.submit:hover, 
+#notice .singlebutton + .singlebutton input:hover, 
+.submit.buttons input[name="cancel"]:hover, 
+#page-login-index2 .forgetpass a:hover, 
+.btn:hover, 
+input.form-submit:hover, 
+input#id_submitbutton:hover, 
+input#id_submitbutton2:hover, 
+.path-admin .buttons input[type="submit"]:hover, 
+td.submit input:hover,
+
+
+
+input[type="submit"]:focus, 
+input[type="button"]:focus, 
+#searchform_button:focus, 
+a.submit:focus, 
+#notice .singlebutton + .singlebutton input:focus, 
+.submit.buttons input[name="cancel"]:focus, 
+#page-login-index2 .forgetpass a:focus, 
+.btn:focus, 
+input.form-submit:focus, 
+input#id_submitbutton:focus, 
+input#id_submitbutton2:focus, 
+.path-admin .buttons input[type="submit"]:focus, 
+td.submit input:focus
+{
+    background: #ffb822;
+}
+
+.block .header .title h2 {
+    color: #58585a;
+}
+.block .header {
+    border-top: 0;
+    margin: 0 !important;
+}
+#block-region-content .block {
+    border-bottom: 1px solid #fdba31;
+}
+.breadcrumb li {
+    background: #fdba31 none repeat scroll 0 0;
+    height: 35px;
+}
+
+.breadcrumb li.lastli {
+    background: #fdba31 none repeat scroll 0 0;
+}
+
+.arrow-top {
+    border-left: 17px solid #fdba31;
+}
+
+#search-1 {
+    border-radius: 5px !important;
+    height: auto;
+    padding: 7px !important;
+}
+
+.search-box.grey-box.bg-white.clear-fix {
+    position: relative;
+}
+
+.search-box__button {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: 0 0;
+    color: #b1b1b1;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+}
+/*Block Css Starts*/
+/*#block-region-side-post .block  {
+    background: #fff4bf none repeat scroll 0 0;
+    border: 1px solid #feb822;
+}*/
+#block-region-side-post .block {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #feb822;
+    border-radius: 8px;
+}
+
+/*#block-region-side-post .block .header {
+    border-top: 0;
+}*/
+#block-region-side-post .block .header {
+    background: #f8b72e; /* Old browsers */
+background: -moz-linear-gradient(top,  #f8b72e 0%, #f9e677 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f8b72e 0%,#f9e677 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f8b72e 0%,#f9e677 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b72e', endColorstr='#f9e677',GradientType=0 ); /* IE6-9 */
+    
+    border-radius: 6px 6px 0 0;
+    border-top: 0 none;
+}
+
+#block-region-side-post .block .header .title h2 {
+    color: #555;
+}
+
+.block .header .title h2 {
+    color: #fdba31;
+}
+
+
+
+/*Block Css Ends*/
+
+
+
+#page-navbar {
+    background: #ffde00;
+    margin: 5px 0 10px;
+}
+.breadcrumb li a.firstli {
+    background: #fdba31;
+}
+
+h3.sectionname{
+	background: #fee7bf;
+	color: #c60c22;
+    font-size: large;
+    font-weight: normal;
+}
+
+#page .course-content ul li.section.main {
+    background: #fef2dc none repeat scroll 0 0;
+    border: 1px solid #fee7bf;
+    border-radius: 5px;
+}
+
+#page .course-content ul li.section.main a {
+    color: #001e3c;
+}
+a:link, a:visited, .tabtree .tabrow0 li a, .dropdown-menu.usermen > li > a {
+    color: #feb822;
+}
+.dropdown-menu.usermen {
+   right: 0;
+}
+.dropdown.langmenu a.dropdown-toggle:hover{
+    background: transparent;
+}
+.dropdown.langmenu .dropdown-menu {
+    left: unset;
+    right: 0;
+    width: 188px;
+}
+/*.container.outercont {
+    width: 100%;
+}*/
+
+#region-main {
+    /*background: url([[pix:theme|1]]);*/
+    margin: 0;
+}
+
+#page-content{
+    padding: 0;
+}
+
+.zoomdesc, .langdesc {
+    display: inline;
+}
+
+.dropup, .dropdown {
+    position: relative;
+    text-align: right;
+}
+.dropdown.langmenu a.dropdown-toggle {
+    display: inline;
+    width: 107px;
+}
+
+
+.col-md-9{
+    width: 75%;
+    float: left;
+}
+
+
+
+#region-main {
+    padding: 0 15px;
+}
+.search_tour.bg-white.no-border.left.search-box__input.ui-autocomplete-input,
+.search_tour.bg-white.no-border.left.search-box__input.ui-autocomplete-input:focus,
+#search-1:focus {
+    border: 1px solid #dfdfdf !important;
+    box-shadow: 0 0 51px -31px #717171 inset !important;
+}
+
+
+
+
+
+
+
+
+
+#page-footer {
+    background: #444545 url([[pix:theme|footer-line]]) repeat-x;
+    margin: 0;
+    padding: 22px 15px;
+}
+
+#page-footer h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#page-footer p {
+    color: #9fa1a1;
+    font-size: 13px;
+}
+
+#page-footer .info {
+    border-top: 1px solid #9fa1a1;
+    margin: 20px 0 0;
+    padding-bottom: 0;
+}
+
+.footer .flinks{display: none;}
+.footer .flinks a {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px 0 0;
+}
+.footer .flinks a:hover,
+.footer .flinks a.active {
+    color: #ffdd00;
+    text-decoration: none;
+}
+.f-logo-sec{
+    width: 25%;
+    float: left;
+    text-align: right;
+    display: none;
+}
+
+/*Fixes Stars*/
+fieldset.clearfix.collapsible {
+    padding: 0 0 0 30px;
+}
+
+#region-main h2 {
+    color: #c60c22;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+#region-main h3 {
+    margin: 0;
+    padding: 0.4rem 0 0.3rem;
+}
+
+.dropdown-menu {
+    border-bottom: 1px solid #fdba31;
+    box-shadow: 0 0 #fff;
+    border-radius: 0;
+    padding: 0;
+	margin: 0;
+}
+.dropdown-menu li{
+    border:1px solid #fdba31;
+    border-bottom: 0;
+}
+.dropdown-menu a{
+    color: #001e3c;
+}
+
+.searchbox{
+    padding-top: 0;
+}
+.search-box.grey-box.bg-white.clear-fix {
+    background: transparent none repeat scroll 0 0;
+}
+#search-1 {
+    width: calc(100% - 18px);
+}
+
+.navbar .btn-navbar, .navbar .btn-navbar:hover, .navbar .btn-navbar:active {
+    background: #ffde00 none repeat scroll 0 0 !important;
+}
+
+.navbar .btn-navbar .icon-bar {
+    background-color: #000;
+}
+
+.moodle-actionmenu.show[data-enhanced] .menu {
+    border: 1px solid #fdba31;
+    border-radius: 0;
+    box-shadow: 0 0;
+    font-size: 12px;
+}
+
+.moodle-actionmenu.show[data-enhanced] .menu a {
+    color: #001e3c;
+    border-radius: 0;
+}
+
+.moodle-actionmenu.show[data-enhanced] .menu a:hover,
+.moodle-actionmenu.show[data-enhanced] .menu a:active,
+.moodle-actionmenu.show[data-enhanced] .menu a:focus {
+    background: #eee;
+    border-radius: 0;
+    color: #001e3c;
+    outline: none;
+    text-decoration: none;
+}
+
+#course-category-listings li > div {
+    border: 1px solid #c2c2c2;
+    border-top: 0;
+}
+#course-category-listings > div > div > ul.ml > li:first-child > div {
+    border-top: 1px solid #c2c2c2;
+}
+#page-mod-scorm-player #scormpage #scorm_content {
+    height: 95%;
+}
+/*Fixes Ends*/
+
+
+.nav-head {
+    height: 0;
+}
+
+.home-nav .nav-head .navbar-toggle{
+    background: #ffde00;
+    border: 1px solid #bfa600;
+    height: 30px;
+    padding: 0 8px;
+    display: none;
+}
+
+.home-nav .nav-head .navbar-toggle .icon-bar {
+    background: #000;
+}
+
+.block_myprofile.block {
+    clear: both;
+    display: table;
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+.myprofileitem.picture {
+    float: left;
+    padding: 0 10px 0 0;
+}
+.myprofileitem.fullname {
+    color: #c60c22;
+}
+
+button.search-box__button {
+    z-index: 3;
+    top: 0;
+}
+
+button.search-box__button:hover {
+    background: transparent;
+    color: #fdba31;
+}
+
+button.search-box__button:hover .fa{
+    color: #fdba31;
+}
+
+.subcontent.loginsub {
+    margin: auto;
+    width: 65%;
+}
+
+input[type="submit"], 
+input[type="button"], 
+#searchform_button, 
+a.submit, 
+#notice .singlebutton + .singlebutton input, 
+.submit.buttons input[name="cancel"], 
+#page-login-index2 .forgetpass a, 
+.btn, 
+input.form-submit, 
+input#id_submitbutton, 
+input#id_submitbutton2, 
+.path-admin .buttons input[type="submit"], 
+td.submit input{
+    border-radius: 6px;
+    box-shadow: 0 0 transparent;
+    border:1px solid #fdba31;
+    padding: 4px 8px;
+}
+
+input.form-submit:hover, 
+input#id_submitbutton:hover, 
+input#id_submitbutton2:hover, 
+.path-admin .buttons input[type="submit"]:hover, 
+td.submit input:hover, 
+input.form-submit:focus, 
+input#id_submitbutton:focus, 
+input#id_submitbutton2:focus, 
+.path-admin .buttons input[type="submit"]:focus, 
+td.submit input:focus, 
+input.form-submit:active, 
+input#id_submitbutton:active, 
+input#id_submitbutton2:active, 
+.path-admin .buttons input[type="submit"]:active, 
+td.submit input:active, 
+input.form-submit.active, 
+input#id_submitbutton.active, 
+input#id_submitbutton2.active, 
+.path-admin .buttons input[type="submit"].active, 
+td.submit input.active, 
+input.form-submit.disabled, 
+input#id_submitbutton.disabled, 
+input#id_submitbutton2.disabled, 
+.path-admin .buttons input[type="submit"].disabled, 
+td.submit input.disabled, 
+input.form-submit[disabled], 
+input#id_submitbutton[disabled], 
+input#id_submitbutton2[disabled], 
+.path-admin .buttons input[type="submit"][disabled], 
+td.submit input[disabled]{
+background: #e07e1f;
+}
+
+
+
+.block_myprofile img.profilepicture {
+    border: 1px solid #a5a5a5;
+    border-radius: 5px;
+    height: 58px;
+    width: 58px;
+}
+
+.userpicture {
+    border: 1px solid #a5a5a5;
+    border-radius: 5px;
+}
+
+
+
+a.back-to-top{
+    top: 83%;
+}
+
+.btn-2 {
+    background: url([[pix:theme|btn2-bg]])  no-repeat 9px 9px #f1f1f1;
+    border-radius: 5px;
+    color: #58585a !important;
+    display: inline-block;
+    padding: 6px 10px 6px 19px;
+
+}
+
+.btn-2:hover,
+.btn-2:active,
+.btn-2:focus{
+    background: #e1e1e1;
+    text-decoration: none;
+} 
+input[type="radio"] + label, 
+input[type="checkbox"] + label {
+    padding-right: 1.2em;
+}
+
+#messagebubble {
+    background: #ee2626 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 15px;
+    left: 6px;
+    min-width: 10px !important;
+    position: relative;
+    top: 0;
+    width: auto !important;
+}
+
+.usermenu2 .dropdown-menu:hover .msg-body{
+    color: #333;
+}
+
+
+a.exit-activity {
+    color: #58585a;
+    display: block;
+    padding: 7px;
+}
+a.exit-activity:hover{
+    text-decoration: none;
+    color: #e31633;
+}
+
+a.exit-activity:before {
+    color: #e31633;
+    display: block;
+    content: "\f011";
+    font-family: 'FontAwesome';
+    float: left;
+    position: relative;
+    right: 4px;
+    font-size: 16px;
+}
+
+a.btn-finish-review {
+    color: #58585a;
+    display: inline-block;
+    padding: 0 0 15px 125px;
+}
+a.btn-finish-review:hover{
+    text-decoration: none;
+    color: #e31633;
+}
+
+a.btn-finish-review:before {
+    color: #e31633;
+    display: block;
+    content: "\f011";
+    font-family: 'FontAwesome';
+    float: left;
+    position: relative;
+    right: 4px;
+    font-size: 16px;
+}
+.course_category_tree .category.with_children.collapsed > .info > .categoryname{
+    background-position: 10px center;
+    font-size: large;
+    padding-left: 30px !important;
+}
+
+.block_myprofile .myprofileitem.email a {
+    color: #c58a11;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+#page-course-index-category .categorypicker {
+    max-width: 500px;
+    text-align: left;
+}
+#page-course-index-category .generalbox.info {
+    max-width: 488px;
+}
+#page-course-index-category #coursesearch {
+    max-width: 500px;
+    padding: 0 0 15px;
+}
+#page-course-index-category .course_category_tree {
+    max-width: 500px;
+}
+#page-course-index-category .buttons {
+    max-width: 500px;
+}
+
+.userprofile {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.userprofile h3 {
+    color: #c60c22;
+    font-weight: normal;
+    padding: 0 !important;
+}
+/* ================================================================== */
+/* === Responsive styles ============================================ */
+/* ================================================================== */
+
+/* Smartphones */
+@media only screen and (max-width: 469px) {
+.loginform{
+
+}
+.loginbox .loginform .form-label {
+    text-align: left;
+    width: 100%;
+}
+
+.loginbox .loginform .form-input {
+    text-align: left;
+    width: 100%;
+}
+.loginbox .loginform .form-input input {
+    width: 100%;
+}
+.home-nav .nav-head .navbar-toggle{display: inline-block;}
+.nav-head {
+    height: 52px;
+}
+.home-nav  .Hnav-cont{
+    display: none;
+}
+.subcontent.loginsub {
+    width: 90%;
+}
+}
+
+/* Large smartphones */
+@media only screen and (min-width: 470px) and (max-width: 769px) {
+.subcontent.loginsub {
+    width: 90%;
+}
+}
+/* Tablets and landscape large smartphones */
+@media only screen and (min-width: 770px) and (max-width: 1100px) {
+.subcontent.loginsub {
+    width: 90%;
+}
+}
+/* Desktop screens */
+@media only screen and (min-width: 1101px) and (max-width: 1235px) {}
+/* Desktop screens */
+@media only screen and (min-width: 1236px) and (max-width: 1300px) {}
+/* Large screen */
+@media only screen and (min-width: 1500px) and (max-width: 1799px) {}
+/* Very large screen */
+@media only screen and (min-width: 1800px) {}
